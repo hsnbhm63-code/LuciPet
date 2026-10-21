@@ -1,0 +1,465 @@
+<!DOCTYPE html><html dir="rtl" lang="fa" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><title>لوسی‌پت | LuciPet</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;font-family:'Vazirmatn',sans-serif;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "error": "#ba1a1a",
+          "background": "#f9f9ff",
+          "primary": "#795900",
+          "on-tertiary-fixed-variant": "#005049",
+          "inverse-surface": "#263143",
+          "outline-variant": "#d3c5ac",
+          "tertiary": "#006a61",
+          "inverse-on-surface": "#ecf1ff",
+          "tertiary-container": "#6ddacc",
+          "on-primary": "#ffffff",
+          "on-background": "#111c2d",
+          "surface-container": "#e7eeff",
+          "surface-container-lowest": "#ffffff",
+          "surface-tint": "#795900",
+          "on-secondary-fixed": "#370e00",
+          "surface-variant": "#d8e3fb",
+          "on-secondary-fixed-variant": "#7f2b00",
+          "surface-dim": "#cfdaf2",
+          "tertiary-fixed": "#89f5e7",
+          "surface": "#f9f9ff",
+          "on-error-container": "#93000a",
+          "on-tertiary-fixed": "#00201d",
+          "on-secondary": "#ffffff",
+          "surface-bright": "#f9f9ff",
+          "secondary-container": "#fd651e",
+          "secondary-fixed-dim": "#ffb599",
+          "inverse-primary": "#f9bd22",
+          "error-container": "#ffdad6",
+          "secondary-fixed": "#ffdbce",
+          "secondary": "#a73a00",
+          "surface-container-high": "#dee8ff",
+          "on-tertiary": "#ffffff",
+          "on-primary-fixed": "#261a00",
+          "on-surface": "#111c2d",
+          "surface-container-low": "#f0f3ff",
+          "outline": "#817661",
+          "primary-fixed-dim": "#f9bd22",
+          "surface-container-highest": "#d8e3fb",
+          "primary-fixed": "#ffdf9f",
+          "on-error": "#ffffff",
+          "on-primary-fixed-variant": "#5c4300",
+          "on-surface-variant": "#4f4633",
+          "tertiary-fixed-dim": "#6bd8cb",
+          "on-primary-container": "#6c4f00",
+          "on-tertiary-container": "#005e56",
+          "primary-container": "#fbbf24",
+          "on-secondary-container": "#571a00"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter": "1.5rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem",
+          "margin": "2.5rem",
+          "space-sm": "0.5rem",
+          "space-lg": "1.5rem",
+          "space-xl": "2.5rem",
+          "space-2xl": "4rem",
+          "margin-mobile": "1.25rem",
+          "gutter-mobile": "1rem"
+        },
+        "fontFamily": {
+          "body-md": [
+            "Vazirmatn"
+          ],
+          "headline-lg": [
+            "Vazirmatn"
+          ],
+          "label-lg": [
+            "Vazirmatn"
+          ],
+          "label-sm": [
+            "Vazirmatn"
+          ],
+          "headline-sm": [
+            "Vazirmatn"
+          ],
+          "headline-md": [
+            "Vazirmatn"
+          ],
+          "body-lg": [
+            "Vazirmatn"
+          ],
+          "label-md": [
+            "Vazirmatn"
+          ],
+          "body-sm": [
+            "Vazirmatn"
+          ],
+          "display-hero": [
+            "Vazirmatn"
+          ],
+          "display-hero-mobile": [
+            "Vazirmatn"
+          ],
+          "headline-lg-mobile": [
+            "Vazirmatn"
+          ]
+        },
+        "fontSize": {
+          "body-md": [
+            "16px",
+            {
+              "lineHeight": "28px",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg": [
+            "36px",
+            {
+              "lineHeight": "52px",
+              "fontWeight": "700"
+            }
+          ],
+          "label-lg": [
+            "15px",
+            {
+              "lineHeight": "22px",
+              "fontWeight": "600"
+            }
+          ],
+          "label-sm": [
+            "11px",
+            {
+              "lineHeight": "16px",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-sm": [
+            "20px",
+            {
+              "lineHeight": "32px",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-md": [
+            "24px",
+            {
+              "lineHeight": "36px",
+              "fontWeight": "700"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "32px",
+              "fontWeight": "400"
+            }
+          ],
+          "label-md": [
+            "13px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "500"
+            }
+          ],
+          "body-sm": [
+            "14px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "display-hero": [
+            "48px",
+            {
+              "lineHeight": "68px",
+              "fontWeight": "800"
+            }
+          ],
+          "display-hero-mobile": [
+            "32px",
+            {
+              "lineHeight": "48px",
+              "fontWeight": "800"
+            }
+          ],
+          "headline-lg-mobile": [
+            "26px",
+            {
+              "lineHeight": "38px",
+              "fontWeight": "700"
+            }
+          ]
+        }
+      },
+    },
+  }</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-gutter lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-xl"><a class="flex items-center gap-space-sm group text-right" data-path="home" href="#"><div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary shadow-sm group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-headline-sm">pets</span></div><div class="flex flex-col"><span class="font-headline-md text-headline-sm leading-none text-primary tracking-tight font-black">LuciPet <span class="text-secondary font-bold text-label-lg">لوسی‌پت</span></span><span class="font-label-sm text-label-sm text-on-surface-variant mt-1 hidden sm:inline-block">غذای تخصصی و طبیعی حیوانات خانگی</span></div></a><nav class="hidden md:flex items-center gap-space-lg" data-active-classes="text-secondary font-bold"><div class="relative group py-space-sm"><a class="text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors flex items-center gap-space-xs" data-path="products" href="#">محصولات<span class="material-symbols-outlined text-body-sm transition-transform group-hover:rotate-180">expand_more</span></a><div class="absolute right-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"><div class="w-64 bg-surface-container-lowest rounded-xl shadow-[0_12px_32px_-4px_rgba(15,23,42,0.08)] p-space-sm flex flex-col gap-1"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg hover:bg-surface-container-low hover:text-on-surface text-on-surface-variant font-body-sm text-body-sm transition-colors" data-path="products" href="#"><span class="material-symbols-outlined text-tertiary text-body-md">nutrition</span>گردن مرغ طبیعی</a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg hover:bg-surface-container-low hover:text-on-surface text-on-surface-variant font-body-sm text-body-sm transition-colors" data-path="products" href="#"><span class="material-symbols-outlined text-secondary text-body-md">favorite</span>دل مرغ خشک‌شده</a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg hover:bg-surface-container-low hover:text-on-surface text-on-surface-variant font-body-sm text-body-sm transition-colors" data-path="products" href="#"><span class="material-symbols-outlined text-primary text-body-md">verified</span>جگر و سنگدان مقوی</a><div class="mt-1 pt-1"><a class="flex items-center justify-between px-space-md py-space-xs font-label-sm text-label-sm text-primary hover:text-secondary transition-colors" data-path="products" href="#"><span class="">مشاهده تمام کاتالوگ</span><span class="material-symbols-outlined text-body-sm">arrow_back</span></a></div></div></div></div><a class="text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors" data-path="blog" href="#">وبلاگ</a><a class="text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors" data-path="story" href="#">داستان ما</a><a class="text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors" data-path="contact" href="#">تماس با ما</a></nav></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Top Hero Story Section -->
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-primary-fixed/20 via-surface-container-low to-surface py-space-2xl px-gutter lg:px-margin">
+<div class="absolute -top-24 -right-24 w-96 h-96 bg-primary-container/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-20 -left-20 w-80 h-80 bg-secondary-container/15 rounded-full blur-2xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto relative z-10 flex flex-col items-center text-center">
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-lowest shadow-sm mb-space-lg">
+<span class="material-symbols-outlined text-secondary text-body-md" style="font-variation-settings: &quot;FILL&quot; 1;">favorite</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold">اصالت، عشق و تعهد علمی</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight font-black mb-space-sm">
+        داستان لوسی</h1>
+<p class="font-body-lg text-body-lg text-secondary font-medium max-w-2xl leading-relaxed mb-space-xl">
+        عشقی که به یک رسالت ماندگار برای سلامت حیوانات خانگی تبدیل شد
+      </p>
+<!-- Stats Pill Bar -->
+
+</div>
+</section>
+<!-- Main Narrative Story Section -->
+<section class="max-w-7xl mx-auto px-gutter lg:px-margin -mt-8 relative z-20 w-full mb-space-2xl">
+<div class="bg-surface-container-lowest rounded-xl shadow-xl overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12">
+<!-- Story Text Column -->
+<div class="lg:col-span-7 p-space-xl lg:p-space-2xl flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-sm text-secondary mb-space-md">
+<span class="w-8 h-1 bg-secondary rounded-full"></span>
+<span class="font-label-lg text-label-lg font-bold">پایه‌ریزی با یک یادبود جاودان</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-black mb-space-lg leading-snug">
+              چرا لوسی پِت تأسیس شد؟
+            </h2>
+<div class="relative mb-space-lg">
+<span class="material-symbols-outlined text-primary-fixed-dim/40 text-[72px] absolute -top-8 -right-6 select-none pointer-events-none">format_quote</span>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed text-justify mb-space-md relative z-10 font-normal">
+                لوسی پِت از دل یک عشق بزرگ و یک خاطره‌ی فراموش‌نشدنی متولد شد؛ عشق به لوسی، عضوی دوست‌داشتنی از خانواده‌ی ما که از دست دادنش، نگاه ما را به دنیای حیوانات خانگی برای همیشه تغییر داد.
+              </p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify mb-space-md">
+              تجربه‌ی تلخ بیماری و از دست دادن لوسی، اهمیت تغذیه‌ی سالم و انتخاب غذای مطمئن برای حیوانات خانگی را بیش از هر زمان دیگری به ما یادآوری کرد. همین اتفاق، جرقه‌ی شکل‌گیری لوسی پِت شد؛ برندی که با عشق، دلسوزی و دغدغه‌ی سلامتی حیوانات پا به این مسیر گذاشت.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify mb-space-md">
+              ما در لوسی پِت باور داریم که هر حیوان خانگی شایسته‌ی تغذیه‌ای باکیفیت و مراقبتی سرشار از عشق است. هدف ما این است که صاحبان حیوانات خانگی بتوانند با آرامش خاطر بیشتری برای تغذیه‌ی عزیزان کوچکشان انتخاب کنند و با اطمینان بیشتری از آن‌ها مراقبت کنند.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify mb-space-lg">
+              لوسی پِت فقط یک برند نیست؛ یادگاری از عشقی ماندگار است. ما این مسیر را ادامه می‌دهیم تا نام لوسی همیشه زنده بماند و عشق او در قالب مراقبت بهتر، تغذیه‌ی باکیفیت‌تر و زندگی سالم‌تر برای حیوانات بیشتری جریان پیدا کند.
+            </p>
+</div>
+<!-- Emotional Badge Quote -->
+<div class="bg-surface-container-low rounded-xl p-space-md flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-headline-sm">pets</span>
+</div>
+<div>
+<p class="font-headline-sm text-headline-sm text-secondary font-bold">
+                  لوسی پِت؛ به یاد لوسی، برای عشق‌های کوچک زندگی‌مان. 🐾
+                </p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">عهد ابدی تیم تولید و سلامت لوسی‌پت</span>
+</div>
+</div>
+<div class="hidden sm:flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-body-md" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-body-md" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-body-md" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-body-md" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-body-md" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+</div>
+</div>
+<!-- Visual Column -->
+<div class="lg:col-span-5 bg-surface-container relative flex flex-col justify-end p-space-lg overflow-hidden min-h-[460px]">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A touching, high-resolution portrait of an adorable fluffy miniature poodle dog looking tenderly at the camera with warm golden hour morning light. The background is a soft beige cream living space with minimalist aesthetic, representing Lucy, surrounded by warmth, innocence and pure companionship in warm amber tones." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuCwhcjRhdnrY9Vl9XudlUUbdxtdxMvMaaNEoeYQOLn7_xXlaNB2CJkSiU1s1cE_TI77TrepCQkGmt9eF8U3eb1XtiTP6rfzsPNmIX_HZMIZcZ96FwkJ1XBHK00ddfQ-1L-FgsUpT9gqogC4crDyZVceYHVpf5ryvg8euIMmm14cTkrHlKCgXS2ptTEXJ9kC_rCR6nodpk4AfbzB_vDsGj2AMTIu2q-tr5Ymh5nC5fZXWOkd-HIvDLMG&quot;);"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/30 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<div class="inline-flex items-center gap-space-xs px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm mb-space-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-body-sm">loyalty</span>
+<span class="">لوسی؛ الهام‌بخش قلب مجموعه</span>
+</div>
+<p class="font-headline-sm text-headline-sm font-bold text-surface mb-space-xs">
+              «هر خوراک سالم، سلامتیِ دوباره یک فرشته»
+            </p>
+<p class="font-body-sm text-body-sm text-surface-variant leading-relaxed">
+              هر پاکت از تشویقی‌های لوسی‌پت نماد احترام به پیوند پاک میان انسان و حیوان است؛ جایی که هیچ سود مادی بر تندرستی پت‌ها ترجیح داده نمی‌شود.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Values Born From Love -->
+<section class="max-w-7xl mx-auto px-gutter lg:px-margin w-full mb-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<span class="font-label-lg text-label-lg text-secondary font-bold">بنیان‌های رفتاری و فلسفه تولید</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-black mt-space-xs">
+          ارکان و ارزش‌های زاده‌شده از این داستان
+        </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+        چگونه تجربه دردناک از دست دادن لوسی را به یک استاندارد دارویی-تغذیه‌ای خدشه‌ناپذیر تبدیل کردیم.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Value Card 1 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-300">
+<div>
+<div class="w-14 h-14 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed mb-space-lg">
+<span class="material-symbols-outlined text-headline-md" style="font-variation-settings: &quot;FILL&quot; 1;">volunteer_activism</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold mb-space-sm">
+            عشق بی‌پایان به حیوانات
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
+            انگیزه‌ای بسیار فراتر از یک کسب‌وکار اقتصادی. ما خود سرپرست پت بوده‌ایم و اضطراب نگرانی از بیماری و رنج حیوانات را با بندبند وجود چشیده‌ایم؛ از این رو تصمیمات لوسی‌پت از جنس عاطفه و دلسوزی است.
+          </p>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center gap-2 text-secondary font-label-md text-label-md">
+<span class="material-symbols-outlined text-body-md">check_circle</span>
+<span class="">هم‌حسی واقعی با والدین حیوانات</span>
+</div>
+</div>
+<!-- Value Card 2 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-300">
+<div>
+<div class="w-14 h-14 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed mb-space-lg">
+<span class="material-symbols-outlined text-headline-md" style="font-variation-settings: &quot;FILL&quot; 1;">verified</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold mb-space-sm">
+            تعهد به بالاترین کیفیت و خلوص ۱۰۰٪
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
+            غذای کاملاً تک‌عنصری (Single Ingredient) بدون هیچ‌گونه ماده نگهدارنده شیمیایی، طعم‌دهنده‌های سنتتیک، نمک یا قند پنهان. محصولات ما در دمای دقیق و ملایم فرآوری شده تا تمام ریزمغذی‌های زنده حفظ شوند.
+          </p>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center gap-2 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-body-md">check_circle</span>
+<span class="">استاندارد آزمایشگاهی و گواهی سلامت</span>
+</div>
+</div>
+<!-- Value Card 3 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-300">
+<div>
+<div class="w-14 h-14 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed mb-space-lg">
+<span class="material-symbols-outlined text-headline-md" style="font-variation-settings: &quot;FILL&quot; 1;">shield_with_heart</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold mb-space-sm">
+            شفافیت و آرامش خاطر سرپرستان
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
+            ما بسته‌بندی را با صداقت کامل طراحی می‌کنیم. چیزی به عنوان فرمول محرمانه یا مواد غیرشفاف وجود ندارد. با آموزش و مشاوره رایگان علمی، سرپرست‌ها با اطمینان کامل و لبخند رضایت، تغذیه پت‌ها را مدیریت می‌کنند.
+          </p>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center gap-2 text-tertiary font-label-md text-label-md">
+<span class="material-symbols-outlined text-body-md">check_circle</span>
+<span class="">آگاهی‌بخشی مستمر و صادقانه</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Timeline: Journey from Memory to Mission -->
+<section class="max-w-7xl mx-auto px-gutter lg:px-margin w-full mb-space-2xl">
+<div class="bg-surface-container-low rounded-xl p-space-xl lg:p-space-2xl">
+<div class="text-center max-w-2xl mx-auto mb-space-2xl">
+<span class="font-label-lg text-label-lg text-secondary font-bold">مسیر پیموده‌شده</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-black mt-space-xs mb-space-sm">
+          خط سیر تبدیل یک اندوه به رسالتی ملی
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          گاه بزرگ‌ترین دستاوردها و خالص‌ترین خدمات از دل عمیق‌ترین تجربیات شخصی جوانه می‌زنند.
+        </p>
+</div>
+<div class="relative grid grid-cols-1 md:grid-cols-3 gap-space-xl">
+<!-- Step 1 -->
+<div class="relative flex flex-col items-center md:items-start text-center md:text-right">
+<div class="w-14 h-14 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-headline-sm text-headline-sm font-bold shadow-md mb-space-md">
+            ۱
+          </div>
+<span class="font-label-sm text-label-sm text-secondary font-bold mb-space-xs">مبدا مسیر</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-sm">
+            جرقه و خاطره ماندگار لوسی
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-justify">
+            رویارویی مستقیم با نقایص فاحش خوراک‌های صنعتی موجود در بازار، بیماری ناگهانی لوسی و درک عمیق این حقیقت که بسیاری از بیماری‌های گوارشی، کلیوی و مفصلی ناشی از خوراک‌های فرآوری‌شده ناسالم با مواد نگهدارنده هستند.
+          </p>
+</div>
+<!-- Step 2 -->
+<div class="relative flex flex-col items-center md:items-start text-center md:text-right">
+<div class="w-14 h-14 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm text-headline-sm font-bold shadow-md mb-space-md">
+            ۲
+          </div>
+<span class="font-label-sm text-label-sm text-primary font-bold mb-space-xs">توسعه علمی</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-sm">
+            تحقیق، آزمایشگاه و فرمولاسیون پاک
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-justify">
+            همکاری با متخصصان علوم تغذیه دامپزشکی، آزمون روش‌های دهیدراسیون انجمادی ملایم، گزینش کشتارگاه‌های زنجیره سرد معتبر کشور و دستیابی به بالاترین پروتکل پالایش پروتئین‌های خالص حیوانی بدون یک قطره ماده شیمیایی.
+          </p>
+</div>
+<!-- Step 3 -->
+<div class="relative flex flex-col items-center md:items-start text-center md:text-right">
+<div class="w-14 h-14 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center font-headline-sm text-headline-sm font-bold shadow-md mb-space-md">
+            ۳
+          </div>
+<span class="font-label-sm text-label-sm text-tertiary font-bold mb-space-xs">امروز و فردا</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-sm">
+            تأسیس لوسی‌پت و آغاز همراهی
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-justify">
+            راه‌اندازی خط تولید بهداشتی استاندارد، عرضه محصولات تک‌عنصری (گردن، دل، جگر و سنگدان ارگانیک و ...) و تشکیل جامعه‌ای آگاه از سرپرستانی که سلامت پت، خط قرمز غیرقابل مذاکره آنهاست.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Proof & Workshop Snapshot -->
+<section class="max-w-7xl mx-auto px-gutter lg:px-margin w-full mb-space-2xl">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg items-center">
+<div class="rounded-xl overflow-hidden shadow-sm h-80 relative">
+<div class="w-full h-full bg-cover bg-center" data-alt="A clean, hygienic laboratory kitchen and organic food preparation facility for pet food, with natural warm sunlight reflecting on clean stainless steel, healthy chicken treats and freeze-dried natural pet treats on trays. Warm amber and creamy tone aesthetic." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuCP7xDR2liSiew3j1mqSmKNJjja5HmFu_1iPwsEoxvA35x9_ev6ZNgxRORWlkYN_O1wxuA498bek0T3Ime9UCnu6M4utRygdMlajEsocnq9o25Td1d-vjsY9n1BgiYbOHwJJ8a_5O2dxsjfnyqsFSE9yjvtSMo2Zdq3UvlrlplDKSsoogRqDJ-CKPssvzlTGZ40yWx3p6Yxh-goiNd30lLG6iu5_CKiZgdDUKh-FxqCVMtWLUTNjCPx&quot;);"></div>
+<div class="absolute bottom-4 right-4 bg-surface-container-lowest/90 backdrop-blur-md px-4 py-2 rounded-lg shadow-sm">
+<p class="font-label-sm text-label-sm text-on-surface font-bold">محیط تولید بهداشتی با گواهینامه معتبر</p>
+</div>
+</div>
+<div class="flex flex-col gap-space-md p-space-md">
+<span class="font-label-lg text-label-lg text-primary font-bold">کیفیت قابل لمس</span>
+<h3 class="font-headline-lg text-headline-lg text-on-surface font-black leading-snug">
+          تغذیه‌ای که اگر خودمان هم می‌توانستیم، با خیال راحت مصرف می‌کردیم!
+        </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
+          در کارگاه‌های لوسی‌پت، تنها گوشت و اعضای مورد تایید مصرف انسانی (Human-Grade) وارد چرخه‌ی تولید می‌شوند. ما هیچ فرآورده جانبی بی‌کیفیت یا ضایعات را نمی‌پذیریم؛ زیرا باور داریم جان لوسی و تک‌تک حیوانات شما، لایق خالص‌ترین احترام و بهترین خوراک است.
+        </p>
+<div class="flex items-center gap-space-md pt-space-xs">
+<div class="flex items-center gap-1.5 text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary">verified_user</span>
+<span class="">بسته‌بندی زیپ‌کیپ محافظ رطوبت</span>
+</div>
+<div class="flex items-center gap-1.5 text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary">eco</span>
+<span class="">صد درصد تجزیه‌پذیر و ایمن</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Question / Community Quote Card -->
+<section class="max-w-7xl mx-auto px-gutter lg:px-margin w-full mb-space-2xl">
+
+</section>
+</div>
+<script>
+  // Simple micro-interaction for interactive timeline hover
+  document.addEventListener('DOMContentLoaded', () => {
+    const timelineCards = document.querySelectorAll('.group-timeline');
+    timelineCards.forEach(card => {
+      card.addEventListener('mouseenter', () => {
+        card.classList.add('scale-[1.02]');
+      });
+      card.addEventListener('mouseleave', () => {
+        card.classList.remove('scale-[1.02]');
+      });
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-low text-on-surface mt-space-2xl"><div class="max-w-7xl mx-auto px-gutter lg:px-margin py-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl"><div class="lg:col-span-5 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary shadow-sm"><span class="material-symbols-outlined text-headline-sm">pets</span></div><div class="flex flex-col"><span class="font-headline-md text-headline-sm leading-none text-primary tracking-tight font-black">LuciPet <span class="text-secondary font-bold text-label-lg">لوسی‌پت</span></span><span class="font-label-sm text-label-sm text-on-surface-variant mt-1">تولیدکننده تخصصی غذای طبیعی حیوانات</span></div></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">شرکت لوسی‌پت با بهره‌گیری از تازه‌ترین مواد اولیه ارگانیک و تکنولوژی خشک‌کردن ملایم، سلامت گوارش، مفاصل و شادابی حیوانات خانگی را با تشویقی‌های ۱۰۰٪ طبیعی و تک‌عنصری تضمین می‌نماید.</p><div class="flex flex-wrap items-center gap-space-sm pt-space-xs"><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-container-highest text-tertiary font-label-sm text-label-sm"><span class="material-symbols-outlined text-body-sm">verified</span>بدون مواد نگهدارنده</span><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-container-highest text-secondary font-label-sm text-label-sm"><span class="material-symbols-outlined text-body-sm">eco</span>۱۰۰٪ طبیعی</span><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-container-highest text-primary font-label-sm text-label-sm"><span class="material-symbols-outlined text-body-sm">health_and_safety</span>دارای گواهینامه بهداشت</span></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">دسترسی سریع</h3><nav class="flex flex-col gap-space-sm"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="home" href="#">صفحه اصلی</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="products" href="#">کاتالوگ محصولات</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="blog" href="#">وبلاگ و مقالات سلامت</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="story" href="#">داستان لوسی</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="contact" href="#">ارتباط با ما&nbsp;</a></nav></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">دسته‌بندی محصولات</h3><ul class="flex flex-col gap-space-sm text-on-surface-variant font-body-sm text-body-sm"><li class="">تشویقی گردن مرغ</li><li class="">دل مرغ خشک طبیعی</li><li class="">سنگدان و کبد خالص</li><li class="">بسته‌های آموزشی سگ و گربه</li></ul></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">شبکه‌های اجتماعی</h3><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">برای آشنایی با تازه‌ترین محصولات و نکات سلامت پت‌ها ما را دنبال کنید:</p><div class="pt-1"><a href="https://instagram.com/Lucipetofficial" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-space-sm px-space-md py-2 rounded-xl bg-surface-container-lowest hover:bg-surface-container shadow-sm hover:shadow transition-all group text-on-surface"><div class="w-8 h-8 rounded-lg bg-secondary text-on-secondary flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform"><svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></div><div class="flex flex-col text-right"><span class="font-label-md text-label-md font-bold text-on-surface group-hover:text-secondary transition-colors" dir="ltr">@Lucipetofficial</span><span class="font-label-sm text-label-sm text-on-surface-variant">اینستاگرام رسمی لوسی‌پت</span></div></a></div></div></div><div class="mt-space-2xl pt-space-lg text-center text-on-surface-variant font-body-sm text-body-sm"><p class="">تمامی حقوق مادی و معنوی این وب‌سایت متعلق به شرکت لوسی‌پت (LuciPet) می‌باشد.</p></div></div></footer>
+
+</body></html>

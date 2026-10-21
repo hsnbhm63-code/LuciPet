@@ -1,0 +1,607 @@
+<!DOCTYPE html><html dir="rtl" lang="fa" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><title>لوسی‌پت | LuciPet</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;font-family:'Vazirmatn',sans-serif;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "error": "#ba1a1a",
+          "background": "#f9f9ff",
+          "primary": "#795900",
+          "on-tertiary-fixed-variant": "#005049",
+          "inverse-surface": "#263143",
+          "outline-variant": "#d3c5ac",
+          "tertiary": "#006a61",
+          "inverse-on-surface": "#ecf1ff",
+          "tertiary-container": "#6ddacc",
+          "on-primary": "#ffffff",
+          "on-background": "#111c2d",
+          "surface-container": "#e7eeff",
+          "surface-container-lowest": "#ffffff",
+          "surface-tint": "#795900",
+          "on-secondary-fixed": "#370e00",
+          "surface-variant": "#d8e3fb",
+          "on-secondary-fixed-variant": "#7f2b00",
+          "surface-dim": "#cfdaf2",
+          "tertiary-fixed": "#89f5e7",
+          "surface": "#f9f9ff",
+          "on-error-container": "#93000a",
+          "on-tertiary-fixed": "#00201d",
+          "on-secondary": "#ffffff",
+          "surface-bright": "#f9f9ff",
+          "secondary-container": "#fd651e",
+          "secondary-fixed-dim": "#ffb599",
+          "inverse-primary": "#f9bd22",
+          "error-container": "#ffdad6",
+          "secondary-fixed": "#ffdbce",
+          "secondary": "#a73a00",
+          "surface-container-high": "#dee8ff",
+          "on-tertiary": "#ffffff",
+          "on-primary-fixed": "#261a00",
+          "on-surface": "#111c2d",
+          "surface-container-low": "#f0f3ff",
+          "outline": "#817661",
+          "primary-fixed-dim": "#f9bd22",
+          "surface-container-highest": "#d8e3fb",
+          "primary-fixed": "#ffdf9f",
+          "on-error": "#ffffff",
+          "on-primary-fixed-variant": "#5c4300",
+          "on-surface-variant": "#4f4633",
+          "tertiary-fixed-dim": "#6bd8cb",
+          "on-primary-container": "#6c4f00",
+          "on-tertiary-container": "#005e56",
+          "primary-container": "#fbbf24",
+          "on-secondary-container": "#571a00"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter": "1.5rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem",
+          "margin": "2.5rem",
+          "space-sm": "0.5rem",
+          "space-lg": "1.5rem",
+          "space-xl": "2.5rem",
+          "space-2xl": "4rem",
+          "margin-mobile": "1.25rem",
+          "gutter-mobile": "1rem"
+        },
+        "fontFamily": {
+          "body-md": [
+            "Vazirmatn"
+          ],
+          "headline-lg": [
+            "Vazirmatn"
+          ],
+          "label-lg": [
+            "Vazirmatn"
+          ],
+          "label-sm": [
+            "Vazirmatn"
+          ],
+          "headline-sm": [
+            "Vazirmatn"
+          ],
+          "headline-md": [
+            "Vazirmatn"
+          ],
+          "body-lg": [
+            "Vazirmatn"
+          ],
+          "label-md": [
+            "Vazirmatn"
+          ],
+          "body-sm": [
+            "Vazirmatn"
+          ],
+          "display-hero": [
+            "Vazirmatn"
+          ],
+          "display-hero-mobile": [
+            "Vazirmatn"
+          ],
+          "headline-lg-mobile": [
+            "Vazirmatn"
+          ]
+        },
+        "fontSize": {
+          "body-md": [
+            "16px",
+            {
+              "lineHeight": "28px",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg": [
+            "36px",
+            {
+              "lineHeight": "52px",
+              "fontWeight": "700"
+            }
+          ],
+          "label-lg": [
+            "15px",
+            {
+              "lineHeight": "22px",
+              "fontWeight": "600"
+            }
+          ],
+          "label-sm": [
+            "11px",
+            {
+              "lineHeight": "16px",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-sm": [
+            "20px",
+            {
+              "lineHeight": "32px",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-md": [
+            "24px",
+            {
+              "lineHeight": "36px",
+              "fontWeight": "700"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "32px",
+              "fontWeight": "400"
+            }
+          ],
+          "label-md": [
+            "13px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "500"
+            }
+          ],
+          "body-sm": [
+            "14px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "display-hero": [
+            "48px",
+            {
+              "lineHeight": "68px",
+              "fontWeight": "800"
+            }
+          ],
+          "display-hero-mobile": [
+            "32px",
+            {
+              "lineHeight": "48px",
+              "fontWeight": "800"
+            }
+          ],
+          "headline-lg-mobile": [
+            "26px",
+            {
+              "lineHeight": "38px",
+              "fontWeight": "700"
+            }
+          ]
+        }
+      },
+    },
+  }</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-gutter lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-xl"><a class="flex items-center gap-space-sm group text-right" data-path="home" href="#"><div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary shadow-sm group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-headline-sm">pets</span></div><div class="flex flex-col"><span class="font-headline-md text-headline-sm leading-none text-primary tracking-tight font-black">LuciPet <span class="text-secondary font-bold text-label-lg">لوسی‌پت</span></span><span class="font-label-sm text-label-sm text-on-surface-variant mt-1 hidden sm:inline-block">غذای تخصصی و طبیعی حیوانات خانگی</span></div></a><nav class="hidden md:flex items-center gap-space-lg" data-active-classes="text-secondary font-bold"><div class="relative group py-space-sm"><a class="text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors flex items-center gap-space-xs" data-path="products" href="#">محصولات<span class="material-symbols-outlined text-body-sm transition-transform group-hover:rotate-180">expand_more</span></a><div class="absolute right-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"><div class="w-64 bg-surface-container-lowest rounded-xl shadow-[0_12px_32px_-4px_rgba(15,23,42,0.08)] p-space-sm flex flex-col gap-1"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg hover:bg-surface-container-low hover:text-on-surface text-on-surface-variant font-body-sm text-body-sm transition-colors" data-path="products" href="#"><span class="material-symbols-outlined text-tertiary text-body-md">nutrition</span>گردن مرغ طبیعی</a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg hover:bg-surface-container-low hover:text-on-surface text-on-surface-variant font-body-sm text-body-sm transition-colors" data-path="products" href="#"><span class="material-symbols-outlined text-secondary text-body-md">favorite</span>دل مرغ خشک‌شده</a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg hover:bg-surface-container-low hover:text-on-surface text-on-surface-variant font-body-sm text-body-sm transition-colors" data-path="products" href="#"><span class="material-symbols-outlined text-primary text-body-md">verified</span>جگر و سنگدان مقوی</a><div class="mt-1 pt-1"><a class="flex items-center justify-between px-space-md py-space-xs font-label-sm text-label-sm text-primary hover:text-secondary transition-colors" data-path="products" href="#"><span class="">مشاهده تمام کاتالوگ</span><span class="material-symbols-outlined text-body-sm">arrow_back</span></a></div></div></div></div><a class="text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors" data-path="blog" href="#">وبلاگ</a><a class="text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors" data-path="contact" href="#">تماس با ما</a></nav></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Hero Section -->
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-surface via-surface-container-low to-surface py-space-2xl">
+<div class="absolute -top-24 right-1/4 w-96 h-96 rounded-full bg-primary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 left-4 w-80 h-80 rounded-full bg-secondary-container/15 blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-gutter lg:px-margin relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Hero Text & CTAs (Right-aligned in RTL) -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg text-right">
+<div class="inline-flex items-center gap-space-xs self-start px-space-md py-1.5 rounded-full bg-primary-fixed text-on-primary-fixed shadow-sm">
+<span class="material-symbols-outlined text-body-md" style="font-variation-settings: &quot;FILL&quot; 1;">eco</span>
+<span class="font-label-sm text-label-sm">استاندارد عالی در تغذیه ۱۰۰٪ ارگانیک حیوانات خانگی</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight leading-tight">
+            تغذیه سالم و شادابی بی‌پایان برای همدم باوفای شما
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            تولیدکننده تشویقی‌های ۱۰۰٪ طبیعی، تک‌عنصری و ارگانیک با بالاترین استاندارد سلامت دهان، مفاصل و عضلات؛ ساخته‌شده از باکیفیت‌ترین مواد اولیه کشتارگاه‌های ممتاز کشور بدون هیچ‌گونه ماده افزودنی.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-xl py-3.5 rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg shadow-md hover:bg-secondary-container hover:shadow-lg transition-all duration-200" data-path="products" href="#">
+<span class="">مشاهده کاتالوگ محصولات</span>
+<span class="material-symbols-outlined text-body-md">arrow_back</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-3.5 rounded-lg bg-surface-container-high text-on-surface font-label-lg text-label-lg hover:bg-surface-container-highest transition-colors" data-path="blog" href="#">
+<span class="material-symbols-outlined text-body-md text-primary">menu_book</span>
+<span class="">مطالعه مقالات آموزشی</span>
+</a>
+</div>
+<!-- Feature Metric Badges -->
+<div class="grid grid-cols-3 gap-space-md pt-space-md max-w-xl">
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-1 text-center">
+<span class="font-headline-md text-headline-md text-primary font-black">۱۰۰٪</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">طبیعی و خالص</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-1 text-center">
+<span class="font-headline-md text-headline-md text-secondary font-black">۰٪</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">مواد نگه‌دارنده</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-1 text-center">
+<span class="font-headline-md text-headline-md text-tertiary font-black">+۷۵٪</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">پروتئین خالص</span>
+</div>
+</div>
+</div>
+<!-- Hero Visual / Floating Pouches Showcase -->
+<div class="lg:col-span-5 relative flex items-center justify-center pt-space-md lg:pt-0">
+<div class="relative w-full max-w-md h-[460px] flex items-center justify-center">
+<!-- Background Aura -->
+<div class="absolute inset-0 rounded-full bg-gradient-to-tr from-primary-container/30 to-secondary-container/20 blur-2xl transform scale-95"></div>
+<!-- Left Treat Pouch (Heart) -->
+<div class="absolute -left-2 top-8 w-52 sm:w-60 z-20 transform -rotate-6 hover:rotate-0 transition-all duration-300">
+<div class="rounded-2xl">
+<img alt="تشویقی طبیعی دل مرغ لوسی‌پت" class="w-full h-auto rounded-xl object-contain drop-shadow-md" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkjSa-IXbwJg6Oxep_2HuOLnMtGSAz2gvdSLBUj3Xoe6vH91OQS5NLcu3Vw6CIwAJbozwFvTkoEDzZ8YUedXFI8HtAtldz9caFdUYxdJS9M_5teNm54JdUIWbmQb8O7jRdCHdPhSDUZWSdVnCQ2vywikM8xao_QfKy0lpA1tL3NLwuBZKhH7CdPmEEztMX4QnIaBQYp_YGIobC1LB1A5xMEHlO_wv-8sxTL9EV1oNr5ZwSqsLBXrIFJd-6_Own0nO9zw">
+<div class="mt-2 text-center py-1 bg-surface-container-low rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">دل مرغ خشک‌شده • منبع تائورین</span>
+</div>
+</div>
+</div>
+<!-- Right Treat Pouch (Neck) -->
+<div class="absolute -right-2 bottom-4 w-52 sm:w-60 z-10 transform rotate-6 hover:rotate-0 transition-all duration-300">
+<div class="rounded-2xl">
+<img alt="تشویقی طبیعی گردن مرغ لوسی‌پت" class="w-full h-auto rounded-xl object-contain drop-shadow-md" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3GvebG8jtdR-EVn_NZRoETOtwbcaB3kpRna2N54Omo_OQn4_BFoyp_haD6MGPAoQSrxBvST5NKQ9fbImYKOt2EbA8BP7m68DhcbGx9WWkyn7Y8ekUPR_XQRUHR4crws2DbkLkZqoE3IJODHyaVbUTx_WVKFP9q4rSg-z0PdG226SxeDeLlJfaug5e3DhjF1lpvfPvEEB2-8VO9zszV-Id41cNiTm07TFjLHhuptt-RgQsePvhMi-T2TqezLJSuzazSw">
+<div class="mt-2 text-center py-1 bg-surface-container-low rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">گردن مرغ طبیعی • سلامت مفاصل</span>
+</div>
+</div>
+</div>
+<!-- Central Quality Seal Chip -->
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Horizontal Trust & Quality Ticker -->
+<div class="w-full bg-surface-container-high py-space-md border-none">
+<div class="max-w-7xl mx-auto px-gutter lg:px-margin">
+<div class="flex flex-wrap items-center justify-around gap-space-md text-on-surface-variant font-label-md text-label-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary">check_circle</span>
+<span class="">خشک‌شده با روش جریان هوای ملایم&nbsp;</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary">verified_user</span>
+<span class="">فاقد طعم‌دهنده مصنوعی و اسانس شیمیایی</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary">pets</span>
+<span class="">تضمین اشتها برای بدغذاترین پت‌ها</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary">local_shipping</span>
+<span class="">توزیع به سراسر کلینیک‌ها و پت‌شاپ‌های معتبر</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Company Overview & Pillars -->
+<section class="w-full py-space-2xl bg-surface">
+<div class="max-w-7xl mx-auto px-gutter lg:px-margin">
+<div class="max-w-3xl mx-auto text-center flex flex-col items-center gap-space-sm mb-space-2xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold tracking-wider">اصالت و سلامت بدون مرز</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">تعهد ما؛ بالاترین سطح خلوص و سلامت در رژیم غذایی پت</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          در مجموعه لوسی‌پت، بر این باوریم که سگ‌ها و گربه‌ها عضوی جدانشدنی از خانواده هستند. از این رو، خط تولید ما بر پایه فرآوری ۱۰۰٪ طبیعی مواد اولیه درجه یک پایه‌گذاری شده و هیچ‌گونه محصول صنعتی یا فرعی در تشویقی‌های ما به کار نمی‌رود تا سلامت ارگان‌های حیاتی تضمین شود.
+        </p>
+</div>
+<!-- 4 Pillars Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Pillar 1 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-tertiary/10 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: &quot;FILL&quot; 1;">spa</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">۱۰۰٪ طبیعی و تک‌عنصری</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-normal">
+            هر بسته تنها شامل یک ماده خالص بدون نمک، گلوتن یا نشاسته حجیم‌کننده است؛ انتخابی ایده‌آل برای پیشگیری از آلرژی‌ها.
+          </p>
+<div class="mt-auto pt-space-xs">
+<span class="inline-block px-2.5 py-0.5 rounded-full bg-surface-container text-tertiary font-label-sm text-label-sm">تضمین خلوص مواد</span>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary/10 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: &quot;FILL&quot; 1;">dentistry</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">سلامت مفاصل و دندان‌ها</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-normal">
+            بافت استخوان‌های غضروفی ملایم به پاکسازی طبیعی پلاک دندان‌ها کمک کرده و منبع طبیعی گلوکزآمین و کندروایتین است.
+          </p>
+<div class="mt-auto pt-space-xs">
+<span class="inline-block px-2.5 py-0.5 rounded-full bg-surface-container text-secondary font-label-sm text-label-sm">غضروف‌ساز طبیعی</span>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: &quot;FILL&quot; 1;">cardiology</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">غنی از پروتئین و تائورین</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-normal">
+            اسید آمینه ضروری تائورین به سلامت عملکرد ماهیچه قلب و تقویت بینایی پت کمک شایانی می‌کند و انرژی پایداری می‌بخشد.
+          </p>
+<div class="mt-auto pt-space-xs">
+<span class="inline-block px-2.5 py-0.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm">تقویت عضلات</span>
+</div>
+</div>
+<!-- Pillar 4 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/20 text-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: &quot;FILL&quot; 1;">family_restroom</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">مناسب تمام سنین و نژادها</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-normal">
+            از توله‌های در حال رشد و نیازمند آموزش تا سگ‌های سالخورده با سیستم هاضمه حساس، کاملاً سازگار و قابل هضم آسان است.
+          </p>
+<div class="mt-auto pt-space-xs">
+<span class="inline-block px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">هضم فوق‌العاده راحت</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Products Catalog Section -->
+<section class="w-full py-space-2xl bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-gutter lg:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-2xl">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-body-sm">storefront</span>
+<span class="">ویترین تخصصی لوسی‌پت</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">محصولات برگزیده و تخصصی لوسی‌پت</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            کاتالوگ معرفی محصولات؛ بالاترین خلوص ارزش غذایی بدون مواد صنعتی و غیرطبیعی
+          </p>
+</div>
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-lg bg-surface-container-lowest text-primary hover:bg-primary hover:text-on-primary font-label-lg text-label-lg transition-colors shadow-sm self-start md:self-auto" data-path="products" href="#">
+<span class="">مشاهده تمامی محصولات</span>
+<span class="material-symbols-outlined text-body-md">west</span>
+</a>
+</div>
+<!-- 4 Product Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Product 1: Chicken Neck -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="relative bg-surface-container-high/40 p-space-lg flex items-center justify-center overflow-hidden aspect-[4/5]">
+<img alt="تشویقی گردن مرغ لوسی‌پت" class="h-64 object-contain group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3GvebG8jtdR-EVn_NZRoETOtwbcaB3kpRna2N54Omo_OQn4_BFoyp_haD6MGPAoQSrxBvST5NKQ9fbImYKOt2EbA8BP7m68DhcbGx9WWkyn7Y8ekUPR_XQRUHR4crws2DbkLkZqoE3IJODHyaVbUTx_WVKFP9q4rSg-z0PdG226SxeDeLlJfaug5e3DhjF1lpvfPvEEB2-8VO9zszV-Id41cNiTm07TFjLHhuptt-RgQsePvhMi-T2TqezLJSuzazSw">
+<span class="absolute top-space-md right-space-md px-2.5 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm">
+              مفاصل و استخوان
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-grow gap-space-sm text-right">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary">۱۰۰٪ ارگانیک</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">وزن: ۱۲۰ گرم</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">تشویقی گردن مرغ</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              حاوی کلسیم، فسفر و گلوکزآمین طبیعی؛ مؤثر در پاکسازی جرم‌های دندانی و استحکام اسکلتی.
+            </p>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">غضروف غنی</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">پاکسازی پلاک دندان</span>
+</div>
+<div class="mt-auto pt-space-md">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-2.5 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md group-hover:bg-primary group-hover:text-on-primary transition-colors" data-path="products" href="#">
+<span class="">مشاهده مشخصات فنی و ارزش غذایی</span>
+<span class="material-symbols-outlined text-body-sm">arrow_back</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Product 2: Chicken Heart -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="relative bg-surface-container-high/40 p-space-lg flex items-center justify-center overflow-hidden aspect-[4/5]">
+<img alt="تشویقی دل مرغ لوسی‌پت" class="h-64 object-contain group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkjSa-IXbwJg6Oxep_2HuOLnMtGSAz2gvdSLBUj3Xoe6vH91OQS5NLcu3Vw6CIwAJbozwFvTkoEDzZ8YUedXFI8HtAtldz9caFdUYxdJS9M_5teNm54JdUIWbmQb8O7jRdCHdPhSDUZWSdVnCQ2vywikM8xao_QfKy0lpA1tL3NLwuBZKhH7CdPmEEztMX4QnIaBQYp_YGIobC1LB1A5xMEHlO_wv-8sxTL9EV1oNr5ZwSqsLBXrIFJd-6_Own0nO9zw">
+<span class="absolute top-space-md right-space-md px-2.5 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm">
+              غنی از تائورین
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-grow gap-space-sm text-right">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary">تشویقی آموزشی</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">وزن: ۱۰۰ گرم</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">تشویقی دل مرغ</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              منبع استثنایی تائورین طبیعی برای حفظ سلامت ماهیچه قلب، عروق و قدرت بینایی پت‌های فعال.
+            </p>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">پروتئین خالص</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">طعم دلپذیر</span>
+</div>
+<div class="mt-auto pt-space-md">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-2.5 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md group-hover:bg-primary group-hover:text-on-primary transition-colors" data-path="products" href="#">
+<span class="">مشاهده مشخصات فنی و ارزش غذایی</span>
+<span class="material-symbols-outlined text-body-sm">arrow_back</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Product 3: Chicken Liver -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="relative bg-surface-container-high/40 p-space-lg flex items-center justify-center overflow-hidden aspect-[4/5]">
+<img alt="تشویقی جگر مرغ لوسی‌پت" class="h-64 object-contain group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIvaHtPjuhcy0l9gSfIAcw0nw9nAi6FSB5oV0qOaVIVbCWSv3Y9f7wCacVgbcFLEuWbRLAAtD0WQE7zXdxH39UQ1xTNTnMEi3WLqel-Ys0e_mnvUqXg07LDfcg5pMEByaHw3LF6Q-Bpzao03l4614jV0uZP-ZV-tsvtdqxN_cOJJKXiu9iD_RMrNPcA8E9v8nOspCHNkjZzKZKJf2wYFiDXruU7raBbVw_wtXInhWhJcHsKuVLcLQjCgUzwZVgz3bMFg">
+<span class="absolute top-space-md right-space-md px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              خون‌ساز و مقوی
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-grow gap-space-sm text-right">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary">ویتامینه خالص</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">وزن: ۱۰۰ گرم</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">تشویقی جگر مرغ</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              سرشار از آهن زیستی، ویتامین A و ویتامین‌های گروه B به همراه مواد معدنی کلیدی جهت ارتقای ایمنی.
+            </p>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">آهن ارگانیک</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">تقویت شادابی</span>
+</div>
+<div class="mt-auto pt-space-md">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-2.5 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md group-hover:bg-primary group-hover:text-on-primary transition-colors" data-path="products" href="#">
+<span class="">مشاهده مشخصات فنی و ارزش غذایی</span>
+<span class="material-symbols-outlined text-body-sm">arrow_back</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Product 4: Chicken Gizzards -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="relative bg-surface-container-high/40 p-space-lg flex items-center justify-center overflow-hidden aspect-[4/5]">
+<img alt="تشویقی سنگدان مرغ لوسی‌پت" class="h-64 object-contain group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwtFwJOKUfvQFUKGr-dIvm-8ePM9rXEdJEiJQSfJHVMNqJErwmPuagbRWeb0ic9LiDOKgeecTMDhNtDRsh1bJy4Pp07YG292hlhH5w3v_W285NDTJDEhg5gbcM_OvU8wTtRLmd-yIxlXK7PBawMKr_pKYmlotTdtRNcSmtGB12vh8EOV5E5eS1nn9xxEFRUliEsfH00p7di1bjJXFX5Tz3rIuflImz3BlSHLlAmQebQVdHcrnOZLAiFFzgSExAYJ8Tsw">
+<span class="absolute top-space-md right-space-md px-2.5 py-1 rounded-full bg-tertiary text-on-tertiary font-label-sm text-label-sm">
+              سلامت گوارش
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-grow gap-space-sm text-right">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary">پروتئین کم‌چرب</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">وزن: ۱۱۰ گرم</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">تشویقی سنگدان مرغ</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              بافت متراکم، پرانرژی و کم‌چرب با پروتئین فوق‌العاده بالا، ایده‌آل برای تقویت هضم و سلامت دستگاه گوارش.
+            </p>
+<div class="flex flex-wrap gap-1.5 pt-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">بدون چربی مضر</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">جویدنی مقوی</span>
+</div>
+<div class="mt-auto pt-space-md">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-2.5 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md group-hover:bg-primary group-hover:text-on-primary transition-colors" data-path="products" href="#">
+<span class="">مشاهده مشخصات فنی و ارزش غذایی</span>
+<span class="material-symbols-outlined text-body-sm">arrow_back</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Blog & Educational Insights Section -->
+<section class="w-full py-space-2xl bg-surface">
+<div class="max-w-7xl mx-auto px-gutter lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-2xl">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold">آموزش و آگاهی</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">دانشنامه و مقالات تخصصی سلامت حیوانات خانگی</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            نکات علمی تاییدشده توسط متخصصین تغذیه و دامپزشکان همراه لوسی‌پت
+          </p>
+</div>
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-lg bg-primary-fixed text-on-primary-fixed hover:bg-primary hover:text-on-primary font-label-lg text-label-lg transition-colors" data-path="blog" href="#">
+<span class="">مشاهده تمام مقالات و راهنماها</span>
+<span class="material-symbols-outlined text-body-md">west</span>
+</a>
+</div>
+<!-- 3 Blog Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Article 1 -->
+<article class="flex flex-col bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-space-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-body-sm text-tertiary">calendar_today</span>
+              ۲۲ بهمن ۱۴۰۳
+            </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-body-sm text-secondary">schedule</span>
+              ۵ دقیقه مطالعه
+            </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs leading-snug hover:text-primary transition-colors">
+            چرا تشویقی‌های تک‌عنصری بهترین انتخاب برای سگ‌های حساس هستند؟
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+            بررسی دلایل شیوع آلرژی‌های گوارشی در نژادهای آپارتمانی و اینکه چگونه فرمولاسیون فاقد نگه‌دارنده لوسی‌پت سیستم ایمنی را در بالاترین سطح تعادل نگه می‌دارد.
+          </p>
+<div class="mt-auto pt-space-sm">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md text-primary font-bold hover:text-secondary transition-colors" data-path="blog" href="#">
+<span class="">ادامه مطلب و مطالعه کامل</span>
+<span class="material-symbols-outlined text-body-sm">arrow_back</span>
+</a>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="flex flex-col bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-space-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-body-sm text-tertiary">calendar_today</span>
+              ۱۸ بهمن ۱۴۰۳
+            </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-body-sm text-secondary">schedule</span>
+              ۴ دقیقه مطالعه
+            </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs leading-snug hover:text-primary transition-colors">
+            نقش تائورین و پروتئین طبیعی در سلامت قلب و انرژی سگ‌ها
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+            تائورین یکی از حیاتی‌ترین ریزمغذی‌ها برای سلامت قلب حیوان است. در این مقاله به منابع طبیعی دریافت تائورین به ویژه دل مرغ خشک ارگانیک می‌پردازیم.
+          </p>
+<div class="mt-auto pt-space-sm">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md text-primary font-bold hover:text-secondary transition-colors" data-path="blog" href="#">
+<span class="">ادامه مطلب و مطالعه کامل</span>
+<span class="material-symbols-outlined text-body-sm">arrow_back</span>
+</a>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="flex flex-col bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-space-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-body-sm text-tertiary">calendar_today</span>
+              ۱۰ بهمن ۱۴۰۳
+            </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-body-sm text-secondary">schedule</span>
+              ۶ دقیقه مطالعه
+            </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs leading-snug hover:text-primary transition-colors">
+            چگونه سلامت دندان‌های سگ خود را با جویدنی‌های طبیعی تضمین کنیم؟
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+            بررسی تاثیر جویدن بافت استخوان‌های غضروفی ملایم در از بین بردن جرم دندان بدون ریسک شکستگی یا آسیب به لثه‌ها همراه با جدول زمان‌بندی تشویقی روزانه.
+          </p>
+<div class="mt-auto pt-space-sm">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md text-primary font-bold hover:text-secondary transition-colors" data-path="blog" href="#">
+<span class="">ادامه مطلب و مطالعه کامل</span>
+<span class="material-symbols-outlined text-body-sm">arrow_back</span>
+</a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Call to Action (B2B & Vet Partners Banner) -->
+<section class="w-full py-space-2xl bg-surface">
+<div class="max-w-7xl mx-auto px-gutter lg:px-margin">
+
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface mt-space-2xl"><div class="max-w-7xl mx-auto px-gutter lg:px-margin py-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl"><div class="lg:col-span-5 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary shadow-sm"><span class="material-symbols-outlined text-headline-sm">pets</span></div><div class="flex flex-col"><span class="font-headline-md text-headline-sm leading-none text-primary tracking-tight font-black">LuciPet <span class="text-secondary font-bold text-label-lg">لوسی‌پت</span></span><span class="font-label-sm text-label-sm text-on-surface-variant mt-1">تولیدکننده تخصصی غذای طبیعی حیوانات</span></div></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">شرکت لوسی‌پت با بهره‌گیری از تازه‌ترین مواد اولیه ارگانیک و تکنولوژی خشک‌کردن انجمادی ملایم، سلامت گوارش، مفاصل و شادابی حیوانات خانگی را با تشویقی‌های ۱۰۰٪ طبیعی و تک‌عنصری تضمین می‌نماید.</p><div class="flex flex-wrap items-center gap-space-sm pt-space-xs"><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-container-highest text-tertiary font-label-sm text-label-sm"><span class="material-symbols-outlined text-body-sm">verified</span>بدون مواد نگهدارنده</span><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-container-highest text-secondary font-label-sm text-label-sm"><span class="material-symbols-outlined text-body-sm">eco</span>۱۰۰٪ طبیعی</span></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">دسترسی سریع</h3><nav class="flex flex-col gap-space-sm"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="home" href="#">صفحه اصلی</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="products" href="#">کاتالوگ محصولات</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="blog" href="#">وبلاگ و مقالات سلامت</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="contact" href="#">ارتباط با ما و مشاوره</a></nav></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">دسته‌بندی محصولات</h3><ul class="flex flex-col gap-space-sm text-on-surface-variant font-body-sm text-body-sm"><li class="">تشویقی گردن مرغ</li><li class="">دل مرغ خشک طبیعی</li><li class="">سنگدان و کبد خالص</li><li class="">بسته‌های آموزشی سگ و گربه</li></ul></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">ارتباط و شبکه‌های اجتماعی</h3><p class="font-body-sm text-body-sm text-on-surface-variant leading-normal mb-1">ما را در شبکه‌های اجتماعی دنبال کنید و از تازه‌ترین تخفیف‌ها و مقالات باخبر شوید:</p><a href="https://instagram.com/Lucipetofficial" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-space-sm px-space-md py-2.5 rounded-xl bg-surface-container-lowest hover:bg-secondary-container/15 text-on-surface hover:text-secondary shadow-sm transition-all duration-200 group"><div class="w-9 h-9 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors"><svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></div><div class="flex flex-col text-right"><span class="font-label-md text-label-md font-bold">اینستاگرام لوسی‌پت</span><span class="font-label-sm text-label-sm text-on-surface-variant group-hover:text-secondary tracking-tight" dir="ltr">@Lucipetofficial</span></div></a></div></div><div class="mt-space-2xl pt-space-lg text-center text-on-surface-variant font-body-sm text-body-sm"><p class="">تمامی حقوق مادی و معنوی این وب‌سایت متعلق به شرکت لوسی‌پت (LuciPet) می‌باشد.</p></div></div></footer></body></html>
